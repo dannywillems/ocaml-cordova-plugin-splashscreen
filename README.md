@@ -17,7 +17,7 @@ Source: [cordova-plugin-splashscreen](https://github.com/apache/cordova-plugin-s
 
 ## Repository branches and tags
 
-No js_of_ocaml version is provided.
+Only gen_js_api version is provided
 
 ## How to use ?
 
