@@ -1,13 +1,7 @@
 (* -------------------------------------------------------------------------- *)
-class splashscreen : Ojs.t ->
-  object
-    inherit Ojs.obj
-    method show : unit
-    method hide : unit
-  end
-(* -------------------------------------------------------------------------- *)
+val show : unit -> unit
+[@@js.global "navigator.splashscreen.show"]
 
-(* -------------------------------------------------------------------------- *)
-val t : unit -> splashscreen
-[@@js.get "navigator.splashscreen"]
+val hide : unit -> unit
+[@@js.global "navigator.splashscreen.hide"]
 (* -------------------------------------------------------------------------- *)
